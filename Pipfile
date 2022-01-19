@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyyaml = "*"
+mergedeep = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+flake8-bugbear = "*"
+flake8-builtins = "*"
+flake8-docstrings = "*"
+flake8-isort = "*"
+flake8-comprehensions = "*"
+flake8-bandit = "*"
+flake8-eradicate = "*"
+flake8-pytest-style = "*"
+flake8-blind-except = "*"
+flake8-logging-format = "*"
+pep8-naming = "*"
+
+[requires]
+python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
