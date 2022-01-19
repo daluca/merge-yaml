@@ -27,6 +27,10 @@ def get_yaml_files(locations):
     for directory in directories:
         files.extend(walk_directory(directory))
 
+    if len(files) == 0:
+        print("No yaml files found")
+        exit(1)
+
     return files
 
 
