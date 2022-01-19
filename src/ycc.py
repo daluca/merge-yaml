@@ -2,8 +2,9 @@
 import argparse
 import os
 
+from mergedeep import Strategy, merge
+
 import yaml
-from mergedeep import merge, Strategy
 
 
 def walk_directory(directory):
